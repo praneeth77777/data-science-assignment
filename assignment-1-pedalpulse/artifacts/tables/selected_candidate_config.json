@@ -1,0 +1,8 @@
+{
+  "candidate": "rf_raw_depth18_leaf1",
+  "family": "Random Forest",
+  "target_scale": "raw",
+  "kind": "rf",
+  "max_depth": 18,
+  "min_samples_leaf": 1
+}

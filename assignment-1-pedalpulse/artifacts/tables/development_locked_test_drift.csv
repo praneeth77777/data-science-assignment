@@ -1,0 +1,13 @@
+feature,type,drift_measure,value
+month,categorical,total_variation_distance,0.8563924782014918
+season,categorical,total_variation_distance,0.8563924782014918
+year,categorical,total_variation_distance,0.5695976468116399
+humidity,continuous,standardized_mean_difference,0.21648057075821464
+weather,categorical,total_variation_distance,0.11638771507921665
+weekday,categorical,total_variation_distance,0.017764417263344184
+holiday,categorical,total_variation_distance,0.007484434357711987
+workingday,categorical,total_variation_distance,0.003550900739621138
+hour,categorical,total_variation_distance,0.0034349350811333154
+windspeed,continuous,standardized_mean_difference,-0.10768612009429725
+atemp,continuous,standardized_mean_difference,-0.5769535118121868
+temp,continuous,standardized_mean_difference,-0.619843834674646

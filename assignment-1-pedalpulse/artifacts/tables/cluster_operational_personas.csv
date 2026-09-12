@@ -1,0 +1,3 @@
+cluster,persona,rows,share_pct,dominant_hour,dominant_weekday_monday_0,workingday_share_pct,weekend_share_pct,mean_temp,mean_humidity,mean_windspeed,posthoc_mean_count_not_used_for_fit,posthoc_median_count_not_used_for_fit
+0,Morning workday conditions (cluster 0),4033,49.478591583854744,6,5,65.28638730473592,31.96131911728242,12.857510538060996,60.248202330771136,13.678992784527649,113.38036201338953,78.0
+1,Mixed daytime conditions (cluster 1),4118,50.52140841614526,15,1,71.1996114618747,26.274890723652263,25.611160757649348,62.14448761534726,12.768833317144244,221.06823700825643,184.0

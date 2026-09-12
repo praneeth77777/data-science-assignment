@@ -1,0 +1,4 @@
+criterion,required,measured,passed
+Mean RMSLE improvement vs seasonal naive,>= 10%,22.969981918835796,True
+Mean MAE improvement vs seasonal naive,>= 5%,6.2098724058254815,True
+RMSLE better in majority of folds,>= 3 of 5,4.0,True

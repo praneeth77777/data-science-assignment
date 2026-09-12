@@ -1,0 +1,17 @@
+dataset,gap_hours,transition_count
+train,1.0,10820
+train,2.0,36
+train,3.0,5
+train,13.0,1
+train,217.0,1
+train,241.0,1
+train,265.0,8
+train,289.0,13
+competition_test,1.0,6436
+competition_test,2.0,28
+competition_test,3.0,1
+competition_test,7.0,1
+competition_test,14.0,1
+competition_test,23.0,1
+competition_test,37.0,1
+competition_test,457.0,23

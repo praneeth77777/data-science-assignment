@@ -1,0 +1,2 @@
+train_shape,competition_test_shape,sample_submission_shape,shared_columns,train_only_columns,test_only_columns,overlapping_timestamps,sample_submission_aligns_to_test,sample_submission_unique_count_values,sample_submission_all_counts_zero
+10886 x 12,6493 x 9,6493 x 2,"datetime, season, holiday, workingday, weather, temp, atemp, humidity, windspeed","casual, registered, count",None,0,True,1,True

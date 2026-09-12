@@ -1,0 +1,20 @@
+check_id,field,rule,severity,violations,status,note
+Q001,datetime,parseable timestamp,error,0,PASS,Raw values are retained; parsing is diagnostic only.
+Q002,datetime,unique timestamp,error,0,PASS,Duplicate hours would make lag lookup ambiguous.
+Q003,all columns,no fully duplicated row,error,0,PASS,Exact duplicate records are not silently removed.
+Q004,season,"value in {1,2,3,4}",error,0,PASS,Competition category codes.
+Q005,holiday,"value in {0,1}",error,0,PASS,Binary indicator.
+Q006,workingday,"value in {0,1}",error,0,PASS,Binary indicator.
+Q007,weather,"value in {1,2,3,4}",error,0,PASS,Competition category codes.
+Q008,humidity,0 <= humidity <= 100,error,0,PASS,Percentage range; exact zero is separately flagged as suspicious.
+Q009,temp,temp is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q010,atemp,atemp is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q011,windspeed,windspeed is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q012,casual,casual is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q013,registered,registered is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q014,count,count is finite and nonnegative,error,0,PASS,No correction is applied in this phase.
+Q015,count,count == casual + registered,critical,0,PASS,Any mismatch would require investigation; components remain forbidden predictors.
+Q016,workingday,workingday matches weekday and non-holiday rule,review,0,PASS,Validates the documented logical definition against parsed dates.
+Q017,casual,casual has integer-valued observations,error,0,PASS,Count variables should be whole numbers.
+Q018,registered,registered has integer-valued observations,error,0,PASS,Count variables should be whole numbers.
+Q019,count,count has integer-valued observations,error,0,PASS,Count variables should be whole numbers.

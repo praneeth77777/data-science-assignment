@@ -1,0 +1,2 @@
+rule,rows_checked,mismatch_count,maximum_absolute_difference,result,modeling_consequence
+count equals casual plus registered,10886,0,0,PASS,casual and registered are prohibited predictors regardless of result

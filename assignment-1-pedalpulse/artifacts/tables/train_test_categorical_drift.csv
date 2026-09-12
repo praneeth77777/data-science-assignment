@@ -1,0 +1,10 @@
+feature,source,total_variation_distance,largest_gap_category,largest_gap_percentage_points,screening_flag_tvd_ge_0_10
+season,raw,0.02753450705219676,3,2.0466776088858274,False
+holiday,raw,0.000539466476694915,1,0.053946647669493586,False
+workingday,raw,0.004940975879308002,0,-0.49409758793080294,False
+weather,raw,0.010580367800380512,1,-1.058036780038052,False
+year,timestamp_derived,0.0016901990778576959,2012,0.16901990778577236,False
+month,timestamp_derived,0.0250214910847191,2,-1.5001570820668415,False
+hour,timestamp_derived,0.002464956183539882,4,-0.13295455564732994,False
+weekday,timestamp_derived,0.0075344498954328515,4,0.7087877307856427,False
+day_of_month,timestamp_derived,1.0,20,8.84028954258432,True

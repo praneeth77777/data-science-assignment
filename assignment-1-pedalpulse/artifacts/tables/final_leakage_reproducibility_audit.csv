@@ -1,0 +1,7 @@
+check,measured,status
+casual absent from model inputs,True,PASS
+registered absent from model inputs,True,PASS
+count absent from model inputs,True,PASS
+development ends before test begins,True,PASS
+selected-model locked-test metric evaluations,1,PASS
+raw input hash unchanged,True,PASS
