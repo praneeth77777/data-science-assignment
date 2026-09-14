@@ -1,0 +1,33 @@
+cluster,persona,customers,feature,median
+0,High-value frequent customers,1064,recency_days,10.0
+1,Established mid-value customers,1257,recency_days,66.0
+2,Recent occasional customers,947,recency_days,32.0
+3,Long-recency customers,1070,recency_days,237.0
+0,High-value frequent customers,1064,frequency,7.0
+1,Established mid-value customers,1257,frequency,3.0
+2,Recent occasional customers,947,frequency,1.0
+3,Long-recency customers,1070,frequency,1.0
+0,High-value frequent customers,1064,monetary,2708.865
+1,Established mid-value customers,1257,monetary,993.54
+2,Recent occasional customers,947,monetary,322.8
+3,Long-recency customers,1070,monetary,252.77
+0,High-value frequent customers,1064,average_order_value,349.75600000000003
+1,Established mid-value customers,1257,average_order_value,326.675
+2,Recent occasional customers,947,average_order_value,228.85999999999999
+3,Long-recency customers,1070,average_order_value,207.765
+0,High-value frequent customers,1064,product_breadth,99.5
+1,Established mid-value customers,1257,product_breadth,49.0
+2,Recent occasional customers,947,product_breadth,22.0
+3,Long-recency customers,1070,product_breadth,15.0
+0,High-value frequent customers,1064,total_units,1627.5
+1,Established mid-value customers,1257,total_units,564.0
+2,Recent occasional customers,947,total_units,189.0
+3,Long-recency customers,1070,total_units,130.0
+0,High-value frequent customers,1064,tenure_days,307.5
+1,Established mid-value customers,1257,tenure_days,178.0
+2,Recent occasional customers,947,tenure_days,0.0
+3,Long-recency customers,1070,tenure_days,0.0
+0,High-value frequent customers,1064,cancellation_rate,0.011310094872614859
+1,Established mid-value customers,1257,cancellation_rate,0.0
+2,Recent occasional customers,947,cancellation_rate,0.0
+3,Long-recency customers,1070,cancellation_rate,0.0

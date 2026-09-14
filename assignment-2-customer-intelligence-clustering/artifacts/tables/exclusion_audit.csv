@@ -1,0 +1,6 @@
+reason,rows,share_of_raw
+exact duplicate,5268,0.009721189350979592
+missing CustomerID,135080,0.249266943342886
+cancellation invoice,9288,0.017139409015166755
+nonpositive quantity,10624,0.019604767590130447
+nonpositive price,2517,0.0046446912673530055

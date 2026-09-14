@@ -1,0 +1,8 @@
+{
+  "feature_view": "rfm",
+  "transformation": "yeo_johnson",
+  "scaler": "standard",
+  "algorithm": "kmeans",
+  "n_clusters": 4,
+  "outlier_policy": "keep"
+}

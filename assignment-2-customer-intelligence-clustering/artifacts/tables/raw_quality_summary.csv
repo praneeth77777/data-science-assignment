@@ -1,0 +1,12 @@
+check,value
+rows,541909
+columns,8
+exact_duplicate_rows,5268
+missing_customer_id,135080
+missing_description,1454
+cancellation_invoice_rows,9288
+nonpositive_quantity_rows,10624
+nonpositive_price_rows,2517
+unique_identified_customers,4372
+minimum_invoice_date,2010-12-01T08:26:00
+maximum_invoice_date,2011-12-09T12:50:00

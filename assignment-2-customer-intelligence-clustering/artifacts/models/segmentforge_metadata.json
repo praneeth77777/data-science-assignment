@@ -1,0 +1,33 @@
+{
+  "state": {
+    "feature_view": "rfm",
+    "transformation": "yeo_johnson",
+    "scaler": "standard",
+    "algorithm": "kmeans",
+    "n_clusters": 4,
+    "outlier_policy": "keep"
+  },
+  "dataset_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "discovery_customers": 3443,
+  "locked_audit_customers": 895,
+  "metrics": {
+    "discovery": {
+      "silhouette": 0.33314568418462415,
+      "calinski_harabasz": 2872.2569299078095,
+      "davies_bouldin": 1.0183654262818018,
+      "minimum_cluster_share": 0.2149288411269242,
+      "maximum_cluster_share": 0.2933488237002614
+    },
+    "locked_audit": {
+      "silhouette": 0.33831679056651937,
+      "calinski_harabasz": 741.2981876203789,
+      "davies_bouldin": 1.0219341925275496,
+      "minimum_cluster_share": 0.23128491620111732,
+      "maximum_cluster_share": 0.2759776536312849
+    }
+  },
+  "stability_ari_mean": 0.9888225015411264,
+  "stability_ari_sd": 0.002512000871644323,
+  "random_seed": 42,
+  "trials": 42
+}

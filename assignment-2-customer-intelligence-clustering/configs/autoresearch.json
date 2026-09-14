@@ -1,0 +1,26 @@
+{
+  "master_seed": 42,
+  "max_trials": 42,
+  "patience": 4,
+  "min_delta": 0.005,
+  "cluster_counts": [2, 3, 4, 5, 6, 7, 8],
+  "algorithms": ["kmeans", "gaussian_mixture", "agglomerative"],
+  "feature_views": ["rfm", "compact", "behavioral"],
+  "transformations": ["log1p", "yeo_johnson"],
+  "scalers": ["standard", "robust"],
+  "outlier_policies": ["keep", "winsorize"],
+  "stability_seeds": [11, 23, 42],
+  "stability_fraction": 0.8,
+  "silhouette_sample": 2500,
+  "minimum_cluster_share": 0.03,
+  "minimum_cluster_customers": 30,
+  "maximum_cluster_share": 0.70,
+  "weights": {
+    "silhouette": 0.30,
+    "calinski_harabasz": 0.15,
+    "davies_bouldin": 0.10,
+    "stability": 0.25,
+    "balance": 0.10,
+    "interpretability": 0.10
+  }
+}

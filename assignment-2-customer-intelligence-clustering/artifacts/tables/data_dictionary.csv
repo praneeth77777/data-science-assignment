@@ -1,0 +1,18 @@
+field,stage,definition,type
+InvoiceNo,raw,Invoice identifier; prefix C denotes cancellation,identifier
+StockCode,raw,Product/item code,identifier
+Description,raw,Product description,text
+Quantity,raw,Item quantity on invoice line,integer
+InvoiceDate,raw,Invoice timestamp,datetime
+UnitPrice,raw,Unit price in sterling,numeric
+CustomerID,raw,"Customer identifier; grouping only, never a clustering feature",identifier
+Country,raw,Customer country,categorical
+recency_days,derived,Days from last valid purchase to fixed snapshot,integer
+frequency,derived,Distinct completed purchase invoices,integer
+monetary,derived,Sum of positive purchase Quantity × UnitPrice,currency
+average_order_value,derived,Mean completed-invoice value,currency
+product_breadth,derived,Distinct products purchased,integer
+total_units,derived,Total positive units purchased,integer
+average_basket_units,derived,Mean units per completed invoice,numeric
+tenure_days,derived,Days between first and last valid purchase,integer
+cancellation_rate,derived,Share of identified deduplicated rows from cancellation invoices,proportion
